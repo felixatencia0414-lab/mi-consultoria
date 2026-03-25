@@ -83,19 +83,29 @@ export default function Home() {
               },
             ].map((item, i) => (
               <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.1 }}
+                 key={i}
+                 initial={{ opacity: 0, y: 40 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 transition={{ delay: i * 0.1 }}
               >
-                <Link
+                 <Link
                   href={item.link}
-                  className="block bg-gray-900 p-6 sm:p-8 lg:p-10 rounded-2xl border border-gray-800
-                  hover:border-orange-500 hover:scale-[1.03] transition"
-                >
-                  <h3 className="text-lg sm:text-xl font-semibold">{item.title}</h3>
-                  <p className="text-gray-400 mt-2 text-sm sm:text-base">{item.desc}</p>
-                </Link>
+                  className="group block bg-gray-900 p-6 sm:p-8 lg:p-10 rounded-2xl border border-gray-800
+                  hover:border-orange-500 hover:scale-[1.03] transition duration-300"
+                 >
+                  <h3 className="text-lg sm:text-xl font-semibold">
+                    {item.title}
+                  </h3>
+
+                  <p className="text-gray-400 mt-2 text-sm sm:text-base">
+                    {item.desc}
+                  </p>
+
+                  {/* CTA */}
+                  <p className="mt-4 text-orange-500 text-sm font-medium opacity-80 group-hover:opacity-100 transition">
+                    Ver más detalles →
+                  </p>
+                  </Link>
               </motion.div>
             ))}
 

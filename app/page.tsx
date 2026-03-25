@@ -63,6 +63,7 @@ export default function Home() {
               {
                 title: "Inventarios",
                 desc: "Control y auditoría",
+                info: "Clic mayor informacion",
                 link: "/servicios/inventarios",
               },
               {

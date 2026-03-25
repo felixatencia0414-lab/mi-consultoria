@@ -23,7 +23,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 text-lg sm:text-xl text-orange-500 font-semibold">
-              Contador Publico
+              Contador Publico & Ingeniero de Sistemas
             </p>
 
             <p className="mt-6 text-gray-400 max-w-xl leading-relaxed text-sm sm:text-base">

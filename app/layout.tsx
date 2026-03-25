@@ -1,9 +1,22 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Auditor ERP, WMS e Inventarios | Felix Atencia",
+  title: "Consultor ERP, WMS e Inventarios en Barranquilla | Felix Atencia",
   description:
-    "Consultor en sistemas empresariales. Auditor de inventarios en barranquilla, ERP, logística y análisis financiero en Colombia.",
+    "Optimización de inventarios, implementación de ERP y logística empresarial en Barranquilla, Colombia.",
+  keywords: [
+    "ERP Colombia",
+    "WMS inventarios",
+    "auditoria de inventarios",
+    "logistica empresarial",
+    "consultor ERP Barranquilla",
+  ],
+  authors: [{ name: "Felix Atencia" }],
+  openGraph: {
+    title: "Consultor ERP e Inventarios",
+    description: "Optimiza tu empresa con sistemas ERP y control de inventarios",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
